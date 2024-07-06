@@ -22,6 +22,15 @@ describe("multiplication" , function()
 
         expect(c).to.equal(4)
     })
+     //cycle 3
+     it("3 multiply 3 is 9" , () =>{
+        var a = 3
+        var b = 3
+
+        var c = multiply(a,b)
+
+        expect(c).to.equal(9)
+    })
 
     }
 )
