@@ -40,6 +40,15 @@ it("4 multiply 4 is 16" , () =>{
 
     expect(c).to.equal(16)
 })
+ //cycle 5
+ it("23 multiply 45 is 1035" , () =>{
+    var a = 23
+    var b = 45
+
+    var c = multiply(a,b)
+
+    expect(c).to.equal(1035)
+    })
 
     }
 )
